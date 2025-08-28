@@ -57,3 +57,7 @@ I have tried this but failed. [openwebstart.com](https://openwebstart.com/). May
 ## Credits
 
 Option 1 is inspired from [theonemule/docker-opengl-turbovnc](https://github.com/theonemule/docker-opengl-turbovnc/blob/master/dockerfile).
+
+## Current issues
+
+- ARM64 build won't work on GitHub actions, although the build works on M~ macOS. Rosetta has your back.
